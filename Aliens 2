@@ -1,0 +1,10 @@
+#Aliens 2
+pop = int(input("How many Aliens where there?"))
+
+#While Loop for updating how ling the aliens have been here.
+while True:
+	time = int(input("How many weeks has it been since?"))
+
+	#math and response
+	pop *= (2 ** time)
+	print("There are %s Aliens now" %pop)
