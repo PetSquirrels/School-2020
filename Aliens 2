@@ -1,0 +1,22 @@
+#Aliens 2
+
+while True:
+	try:
+		pop = int(input("How Many Aliens laned? "))
+	except:
+		continue
+	else: 
+		break
+
+while True:
+	while True:
+		try:
+			time = int(input("How many weeks has it been? "))
+		except:
+			continue
+		else: 
+			break	
+
+	#math and response
+	pop = int(pop) * (2 ** int(time))
+	print("There are %s Aliens now" %pop)
