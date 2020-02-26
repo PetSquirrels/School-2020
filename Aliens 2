@@ -2,7 +2,7 @@
 
 while True:
 	try:
-		pop = int(input("How Many Aliens laned? "))
+		pop = int(input("How Many Aliens landed? "))
 	except:
 		continue
 	else: 
